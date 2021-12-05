@@ -6,11 +6,16 @@ University of Hyderabad<br>
 Assigned By: Prof. Nagender Kumar Suryadevara<br>
 Technologies Used: WAMP Stack, JSP, Servlets
 
-### Functionalities
+## Functionalities
 This web project performs three basic functionalities:
 1. Library Management System
 2. Hostel Management System
 3. Online Video Lecture System
+
+It is worth noting that 
+
+### Library Management System (LibMS)
+
 
 ### Styles
 Provided in the **css** folder, each .css file stylizes a given set of webpages.<br>
