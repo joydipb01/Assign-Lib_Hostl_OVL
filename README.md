@@ -11,3 +11,8 @@ This web project performs three basic functionalities:
 1. Library Management System
 2. Hostel Management System
 3. Online Video Lecture System
+
+### Styles
+Provided in the **css** folder, each .css file stylizes a given set of webpages.<br>
+<u>For example:</u> **style.css** will be used for the Library Management System<br><br>
+Additionally, there are images provided in the **images** folder which serve as backgrounds for certain pages
