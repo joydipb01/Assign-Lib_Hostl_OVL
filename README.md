@@ -14,5 +14,5 @@ This web project performs three basic functionalities:
 
 ### Styles
 Provided in the **css** folder, each .css file stylizes a given set of webpages.<br>
-<u>For example:</u> **style.css** will be used for the Library Management System<br><br>
+<ins>For example:</ins> **style.css** will be used for the Library Management System<br><br>
 Additionally, there are images provided in the **images** folder which serve as backgrounds for certain pages
