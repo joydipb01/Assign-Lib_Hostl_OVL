@@ -9,7 +9,7 @@
         $status = "AV";
         $query = mysqli_query($conn, "SELECT * FROM USERS WHERE ID = '$id'");
         if(mysqli_num_rows($query) == 1){
-			$query = mysqli_query($conn, "SELECT * FROM ROOMS WHERE RID = '$rid'");
+			$query = mysqli_query($conn, "SELECT * FROM ROOMS WHERE RID = '$rid' AND OCCUP='$id'");
             if(mysqli_num_rows($query) == 1){
                 $row = mysqli_fetch_assoc($query);
 				if($row['STATUS']=='AV'){
@@ -26,7 +26,7 @@
         
             }
             else{
-				echo '  <script> alert("The Room ID does not exist");  window.location.href = "./vacateRoom.php"</script>';
+				echo '  <script> alert("Unsuccessful Vacation! The student '.$id.' was not allocated room number '.$rid.'");  window.location.href = "./vacateRoom.php";</script>';
             }    
         }
         else{ 
