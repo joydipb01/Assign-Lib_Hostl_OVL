@@ -63,7 +63,7 @@
             }
 		}
         else{
-            echo '  <script> alert("No Book authored by '. $title.' exists");  window.location.href = "./searchName.php"</script>';
+            echo '  <script> alert("No Book authored by '.$author.' exists");  window.location.href = "./searchName.php"</script>';
         }
     }
 
