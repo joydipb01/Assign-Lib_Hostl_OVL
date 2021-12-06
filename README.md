@@ -4,7 +4,7 @@
 Roll No.: 19MCME08<br>
 Institution: University of Hyderabad<br>
 Assigned By: Prof. Nagender Kumar Suryadevara<br>
-Technologies Used: WAMP Stack, JSP, Servlets
+Technologies Used: WAMP Stack (PHP and HTML for front end, MySQL for backend)
 
 ## Functionalities
 This web project performs three basic functionalities:
