@@ -54,7 +54,8 @@ The student can do the following:
 1. Each student occupies 1 hostel room, all to himself/herself
 2. No other student can occupy a hostel room already occupied by another student
 3. The OVL does not discriminate lessons based on subjects
-4. A user may search for only a substring of the actual field to be searched
+4. Floor 0 is the ground floor
+5. A user may search for only a substring of the actual field to be searched
 
 ## Others
 
